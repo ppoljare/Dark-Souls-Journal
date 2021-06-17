@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0031D30B-CFEA-DF03-8EC3-42492D2B1BE5" name="Item drop">
+<createdBy>Petar</createdBy>
+<createdTime>2020-04-23 16:22:01 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="enemy ID" id="69603AD5-B33C-D07B-3E40-8E13717BD118">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:21:03 UTC</createdTime>
+<generatorID>13D5604E-F003-62B8-D269-3313B516B4F5</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<referedAttribute>F308C44B-4EA8-3E04-F35B-F9EE13300B7E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="instance number" id="013B32C5-2C9D-B283-F04A-759D736D435C">
+<createdBy>Petar</createdBy>
+<createdTime>2020-04-23 17:21:41 UTC</createdTime>
+<generatorID>13D5604E-F003-62B8-D269-3313B516B4F5</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<referedAttribute>B4C4430D-17AC-36EB-B218-659153C4DA9C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="item ID" id="BAA0538B-FF59-433F-4A54-CDD055607C89">
+<createdBy>Petar</createdBy>
+<createdTime>2020-04-23 17:21:46 UTC</createdTime>
+<generatorID>445C1A5A-49D7-919D-6404-C6FD1C32F860</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<referedAttribute>A291E040-A803-F365-CB1B-0D37074EA933</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="drop quantity" id="B1815955-1E22-142E-1FB0-CEB485A416A8">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:23:33 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="drop chance" id="32E54C30-9936-ABDD-5534-B7D0431C8741">
+<createdBy>Petar</createdBy>
+<createdTime>2020-04-23 16:47:12 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1381D70D-49B2-3E02-61C0-2560C693F2DC" name="Item drop PK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-04-23 17:21:41 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>013B32C5-2C9D-B283-F04A-759D736D435C</attributeRef>
+<attributeRef>69603AD5-B33C-D07B-3E40-8E13717BD118</attributeRef>
+<attributeRef>BAA0538B-FF59-433F-4A54-CDD055607C89</attributeRef>
+<attributeRef>B1815955-1E22-142E-1FB0-CEB485A416A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

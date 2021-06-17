@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD2B4FD1-1B2B-04AA-AF2E-957C9E4238A8" name="Boss">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>8AA8F6DF-B8B6-A0DE-096D-0180AC826644</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="enemy_ID" id="484618D1-6CA6-4DC9-2171-A2F01B5CF21B">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>DF466FAB-9A6A-80B6-D215-7D77D0C240EE</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A593454C-83A2-F239-7B3E-39FCBA14DEDE" referredColumn="DEA89BA0-7BD4-AF01-A6B2-864950D4F2EC"/>
+</associations>
+</Column>
+<Column name="boss_fight_ID" id="88DEA1CA-5A6C-C633-EA93-0092A991A785">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>E1907573-CEBF-C215-3AB4-FCE25F5FC713</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71CB2827-BF80-A9BD-34F9-1396A76D2AA4" referredColumn="21FC630C-0109-A289-9CD8-C33B5AC144D4"/>
+</associations>
+</Column>
+<Column name="HP" id="06CBC9EB-99A2-47FB-941B-4D6A7F2718C4">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>4C57B222-FD3E-E8B7-8AA8-DAA5C9A5E359</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="052E3A29-6DFD-6085-EC90-5EA07E97722E" name="Boss_PK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>7D78C395-0E0D-F42B-6092-0B3D10972D83</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="484618D1-6CA6-4DC9-2171-A2F01B5CF21B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC27846F-90BB-74BB-3B80-D52C8B12DEA8" name="Boss_Enemy_FK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>B094FCDA-36F3-15FA-30BB-5C8E282D0639</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="484618D1-6CA6-4DC9-2171-A2F01B5CF21B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C27AB7D9-1EDC-D4E0-D385-697059E51ABA" name="Boss_Boss_fight_FK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>66BC80C4-1F9C-E326-D489-AC12D1731D9A</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88DEA1CA-5A6C-C633-EA93-0092A991A785"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

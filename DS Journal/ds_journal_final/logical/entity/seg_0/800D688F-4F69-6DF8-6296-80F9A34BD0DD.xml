@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="800D688F-4F69-6DF8-6296-80F9A34BD0DD" name="Merchant">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:06:05 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>D3265850-7C40-23C7-3170-ED9FFC34BAC0</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="blacksmith" id="66CB39D8-F124-6FFD-027A-21C04B5C0EAD">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:06:25 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

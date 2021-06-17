@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA7E0163-FDF4-A9AF-6B51-726EBDA8F168" name="Spell">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>791C0934-AF4E-F3FF-0AC3-B69AEF82A618</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="item_ID" id="8B448264-95CF-5186-79A5-6A6DD735B208">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>A291E040-A803-F365-CB1B-0D37074EA933</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB31C5D2-C054-2C7A-0474-4A8E9B37A229" referredColumn="2F0F4EBD-FD97-B547-8560-8F8771B878DC"/>
+</associations>
+</Column>
+<Column name="spell_type" id="711B619B-76D5-F844-37A7-6F3E1CA7051C">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>55AFA975-7976-5236-BA8E-C821BC577703</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INT_req" id="2816CBAB-2F44-755D-6F70-78832F218547">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>666698C7-9FD4-5766-0423-8B317E1D4E30</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FTH_req" id="867834F1-0822-B399-114F-77848172737D">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>C81711D8-40E5-83DF-E3D6-4AB9E5D6120E</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="effect_type" id="0813ED50-7EA7-A75B-776C-8710619887C3">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>66C96A4E-CD41-9DCC-132C-D0CEAA7DC366</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="effect_subtype" id="5928D12C-F62F-C405-2A9B-C9060BAEB7E1">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>E0DA2DBA-E7BE-C294-5D10-0C1F5BF3D22E</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="slots" id="32786237-EA18-DC8C-C3CD-48BE097D580D">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>4215E403-6B87-3CFD-6839-B3F8F3BE639A</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uses" id="C79EBD2E-2952-108C-06BC-1CB8B0598E96">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>20C32293-51AF-EF92-45BA-30906683F445</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90789E3F-6348-EEA9-FF28-64CF3B95D8D2" name="Spell_PK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>F41930FB-1778-A8BE-A2FF-083AE8C43974</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B448264-95CF-5186-79A5-6A6DD735B208"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4F6ED17-6DEC-ECB7-869C-826993774290" name="Spell_Item_FK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>D39C2257-C7B5-6B46-E3CE-E1E75EDDED70</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B448264-95CF-5186-79A5-6A6DD735B208"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

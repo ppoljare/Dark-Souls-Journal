@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="623446E2-51A6-5EF8-82D8-298986096A73" containerWithKeyObject="BDD578DD-2D2B-DF07-AE75-9903CA12E1D8" localFKIndex="C4D24EF3-B3FA-7C61-765C-7E4931176230" name="Tail_cut_Enemy_FK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>F8FBCEF9-8FBD-33E3-ECAC-87285B400FC1</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<referredTableLongName>Enemy</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>EB486488-DAF1-9365-89C9-8E518A38821C</referredTableID>
+<keyObject>87969958-C42F-4CBC-05D3-B29A72BBAA3E</keyObject>
+<referredKeyID>87969958-C42F-4CBC-05D3-B29A72BBAA3E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>enemy_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

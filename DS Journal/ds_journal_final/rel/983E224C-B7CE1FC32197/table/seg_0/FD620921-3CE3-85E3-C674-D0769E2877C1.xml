@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD620921-3CE3-85E3-C674-D0769E2877C1" name="Ascension">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>675E7E4E-C845-908B-C6B8-66FC9FB3FD14</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="item_ID" id="3FC382BA-D0D9-C56D-980D-7DD262BBCB63">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>E89D3D5E-83EE-E6F2-D2D9-FAC96C59E257</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9D2214E-3B8A-5F53-6933-9C0A07197E9E" referredColumn="49267089-D116-FDAA-F7F3-32A9C1DF2CEE"/>
+</associations>
+</Column>
+<Column name="enemy_ID" id="050B55EC-0AA6-729E-FA28-FD777A5C60DE">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>4FE13771-39C1-D8BB-F361-DD2BCF6BED74</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D78E5E68-4609-8E2E-967A-8D7D46523C1D" referredColumn="484618D1-6CA6-4DC9-2171-A2F01B5CF21B"/>
+</associations>
+</Column>
+<Column name="weapon_class_ID" id="9615B468-BA80-C02C-949E-91CAC18659C8">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>E7D197DC-6774-539C-C477-9129D871EFE8</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78203003-82D0-5A6C-F95F-8482AC6F02B8" referredColumn="B662AE00-4F98-DDD8-EB0A-8E3299F36A17"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A662D7E2-761D-AB05-99E2-5984B67B43CF" name="Ascension_PK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>C2BB74F8-7E85-79B5-F60A-8A8B8B300886</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FC382BA-D0D9-C56D-980D-7DD262BBCB63"/>
+<colUsage columnID="050B55EC-0AA6-729E-FA28-FD777A5C60DE"/>
+<colUsage columnID="9615B468-BA80-C02C-949E-91CAC18659C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB03172A-4C4C-059E-B509-7D3C1768830B" name="Ascension_Boss_FK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>4913117B-A652-64DF-8A70-F1131A52E7DD</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="050B55EC-0AA6-729E-FA28-FD777A5C60DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FAE1EB3-5F00-29BB-E931-28C345F01B7C" name="Ascension_class_FK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>07B10741-6320-3E9C-65FF-33C140B7ABF4</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9615B468-BA80-C02C-949E-91CAC18659C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F6BA9B9-11BF-1335-9393-666259D1690C" name="Ascension_Weapon_FK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>BF5FAE18-EE8F-AC68-6994-45CD8A43B2FB</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FC382BA-D0D9-C56D-980D-7DD262BBCB63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

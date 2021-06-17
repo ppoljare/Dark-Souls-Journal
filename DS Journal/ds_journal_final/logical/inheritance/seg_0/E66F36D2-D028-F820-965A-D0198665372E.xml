@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<InheritanceRelation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_3" directorySegmentName="seg_0" id="E66F36D2-D028-F820-965A-D0198665372E">
+<createdBy>Petar</createdBy>
+<createdTime>2020-04-23 14:53:31 UTC</createdTime>
+<ownerDesignName>dark_souls_journal</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>9051C86C-E168-0016-0019-0252F9702342</sourceEntity>
+<targetEntity>CFA75DC5-8AAD-3043-DF14-1E22611EA560</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</InheritanceRelation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="71CB2827-BF80-A9BD-34F9-1396A76D2AA4" containerWithKeyObject="BD2B4FD1-1B2B-04AA-AF2E-957C9E4238A8" localFKIndex="C27AB7D9-1EDC-D4E0-D385-697059E51ABA" name="Boss_Boss_fight_FK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>66BC80C4-1F9C-E326-D489-AC12D1731D9A</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<referredTableLongName>Boss_fight</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>7B0D64BB-1622-50FB-76E8-9AECCC03AFF0</referredTableID>
+<keyObject>97825012-A23A-5725-654D-D13EC9FBC89C</keyObject>
+<referredKeyID>97825012-A23A-5725-654D-D13EC9FBC89C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>boss_fight_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="18C3AE81-ABC8-0DA5-6F41-2CE4B907D179" name="Tail cut">
+<createdBy>Petar</createdBy>
+<createdTime>2020-04-23 21:31:42 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="enemy ID" id="974D9688-719D-6054-CF24-BC88607DA2FC">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 12:50:28 UTC</createdTime>
+<generatorID>F8FBCEF9-8FBD-33E3-ECAC-87285B400FC1</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<referedAttribute>DF466FAB-9A6A-80B6-D215-7D77D0C240EE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="item ID" id="858674C2-32C9-E6D4-BDBE-3BD97398FCE5">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 12:50:00 UTC</createdTime>
+<generatorID>4A3A7744-DEEE-403A-F3DC-B48845824FB7</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<referedAttribute>A291E040-A803-F365-CB1B-0D37074EA933</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1852E32E-1FBB-165A-E924-1A625648E9EA" name="Tail cut PK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-04-23 21:33:03 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>858674C2-32C9-E6D4-BDBE-3BD97398FCE5</attributeRef>
+<attributeRef>974D9688-719D-6054-CF24-BC88607DA2FC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

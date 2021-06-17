@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B720156D-2C39-E370-4302-61A956F9D76C" name="Merchant">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>800D688F-4F69-6DF8-6296-80F9A34BD0DD</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="npc_ID" id="91EACB71-2DFE-89C8-34CB-13B513C95810">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>706DE2DE-729E-AA4F-5EB5-C4BB798FD410</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="307D3F55-8021-8D41-2F74-4ED8C7F49463" referredColumn="83C8D4C0-5944-7027-7C9A-E20EC5B4389F"/>
+</associations>
+</Column>
+<Column name="blacksmith" id="AB1C639C-D8AB-B9BD-D654-E0A3B8F847FA">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>66CB39D8-F124-6FFD-027A-21C04B5C0EAD</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D015E548-9CF3-00D0-8FAC-7622AE58860C" name="Merchant_PK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>09FD2E4C-FA00-2AFB-62B9-E790338F7EE1</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91EACB71-2DFE-89C8-34CB-13B513C95810"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10DAF727-8349-A7AF-74DD-E97186ABF6BA" name="Merchant_NPC_FK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>C8DEFD1C-A0A2-A76D-DCA2-3BA9884DB8A1</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91EACB71-2DFE-89C8-34CB-13B513C95810"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

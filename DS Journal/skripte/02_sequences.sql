@@ -1,0 +1,90 @@
+------------------------------------------------ ITEM ------------------------------------------------
+
+CREATE SEQUENCE normal_item_seq
+	INCREMENT BY 1
+	START WITH 1
+	MINVALUE 1
+	MAXVALUE 999
+	ORDER;
+
+CREATE SEQUENCE weapon_class_seq
+	INCREMENT BY 1
+	START WITH 1
+	MINVALUE 1
+	MAXVALUE 99
+	ORDER;
+
+CREATE SEQUENCE weapon_seq
+	INCREMENT BY 1
+	START WITH 1
+	MINVALUE 1
+	MAXVALUE 999
+	ORDER;
+
+CREATE SEQUENCE spell_seq
+	INCREMENT BY 1
+	START WITH 1
+	MINVALUE 1
+	MAXVALUE 999
+	ORDER;
+
+CREATE SEQUENCE ammo_seq
+	INCREMENT BY 1
+	START WITH 1
+	MINVALUE 1
+	MAXVALUE 999
+	ORDER;
+
+CREATE SEQUENCE material_seq
+	INCREMENT BY 1
+	START WITH 1
+	MINVALUE 1
+	MAXVALUE 999
+	ORDER;
+
+---------------------------------------------- LOCATION ----------------------------------------------
+
+CREATE SEQUENCE location_seq
+	INCREMENT BY 1
+	START WITH 1
+	MINVALUE 1
+	MAXVALUE 999
+	ORDER;
+
+CREATE SEQUENCE npc_seq
+	INCREMENT BY 1
+	START WITH 1
+	MINVALUE 1
+	MAXVALUE 99
+	ORDER;
+
+CREATE SEQUENCE merchant_seq
+	INCREMENT BY 1
+	START WITH 1
+	MINVALUE 1
+	MAXVALUE 99
+	ORDER;
+
+CREATE SEQUENCE boss_fight_seq
+	INCREMENT BY 1
+	START WITH 1
+	MINVALUE 1
+	MAXVALUE 99
+	ORDER;
+
+CREATE SEQUENCE boss_seq
+	INCREMENT BY 1
+	START WITH 1
+	MINVALUE 1
+	MAXVALUE 99
+	ORDER;
+
+CREATE SEQUENCE enemy_seq
+	INCREMENT BY 1
+	START WITH 1
+	MINVALUE 1
+	MAXVALUE 999
+	ORDER;
+
+
+------------------------------------------------ END -------------------------------------------------

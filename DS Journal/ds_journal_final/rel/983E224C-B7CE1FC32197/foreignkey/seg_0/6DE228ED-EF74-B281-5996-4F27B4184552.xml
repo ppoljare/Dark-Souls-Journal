@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6DE228ED-EF74-B281-5996-4F27B4184552" containerWithKeyObject="F3B4FA14-794A-C387-9B98-4D573EBF7191" localFKIndex="715A3A28-92CB-F326-C08E-3C0A46A01EAC" name="Item_gift_NPC_FK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>90623AC2-4A18-5261-53EE-0F4C26FE6A66</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<referredTableLongName>NPC</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>9451A2FB-9A4E-259F-1919-62A8F79F3E66</referredTableID>
+<keyObject>C572D234-11A1-EDFE-2EFC-B02920DD203C</keyObject>
+<referredKeyID>C572D234-11A1-EDFE-2EFC-B02920DD203C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>npc_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

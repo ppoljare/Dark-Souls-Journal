@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDD578DD-2D2B-DF07-AE75-9903CA12E1D8" name="Tail_cut">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>18C3AE81-ABC8-0DA5-6F41-2CE4B907D179</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="enemy_ID" id="39053392-A939-18C7-DB72-78533718BF8E">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>974D9688-719D-6054-CF24-BC88607DA2FC</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="623446E2-51A6-5EF8-82D8-298986096A73" referredColumn="DEA89BA0-7BD4-AF01-A6B2-864950D4F2EC"/>
+</associations>
+</Column>
+<Column name="item_ID" id="9F1C198D-81ED-2B37-0791-BE76CDA56C16">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>858674C2-32C9-E6D4-BDBE-3BD97398FCE5</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5822E98-D431-7B26-70FE-D4E3578B5AB3" referredColumn="49267089-D116-FDAA-F7F3-32A9C1DF2CEE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C32A0277-B89C-0F80-CD53-312A4B73A1CE" name="Tail_cut_PK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>1852E32E-1FBB-165A-E924-1A625648E9EA</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39053392-A939-18C7-DB72-78533718BF8E"/>
+<colUsage columnID="9F1C198D-81ED-2B37-0791-BE76CDA56C16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4501C1B-B4D4-4C63-8BEB-F7E4D074794E" name="Tail_cut_UQ">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 14:40:13 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39053392-A939-18C7-DB72-78533718BF8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13683B11-F1B5-210D-B241-2C2511E92C3D" name="Tail_cut_Weapon_FK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>4A3A7744-DEEE-403A-F3DC-B48845824FB7</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F1C198D-81ED-2B37-0791-BE76CDA56C16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4D24EF3-B3FA-7C61-765C-7E4931176230" name="Tail_cut_Enemy_FK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>F8FBCEF9-8FBD-33E3-ECAC-87285B400FC1</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39053392-A939-18C7-DB72-78533718BF8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

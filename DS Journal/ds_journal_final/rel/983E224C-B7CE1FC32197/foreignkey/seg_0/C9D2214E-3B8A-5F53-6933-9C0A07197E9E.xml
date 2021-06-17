@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C9D2214E-3B8A-5F53-6933-9C0A07197E9E" containerWithKeyObject="FD620921-3CE3-85E3-C674-D0769E2877C1" localFKIndex="4F6BA9B9-11BF-1335-9393-666259D1690C" name="Ascension_Weapon_FK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>BF5FAE18-EE8F-AC68-6994-45CD8A43B2FB</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<referredTableLongName>Weapon</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>D6A04F63-601E-7670-4D3A-DBD02C27BAEE</referredTableID>
+<keyObject>8676C7F0-A887-9DA7-00A1-83E9FA833F48</keyObject>
+<referredKeyID>8676C7F0-A887-9DA7-00A1-83E9FA833F48</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>item_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

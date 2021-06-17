@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="886725A6-6983-BBD3-8F37-7C9D66112659" name="Item gift">
+<createdBy>Petar</createdBy>
+<createdTime>2020-05-28 23:50:36 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="npc ID" id="49551DB7-E4E1-A482-A4EF-D5D02207BFFE">
+<createdBy>Petar</createdBy>
+<createdTime>2020-05-28 23:51:07 UTC</createdTime>
+<generatorID>90623AC2-4A18-5261-53EE-0F4C26FE6A66</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<referedAttribute>706DE2DE-729E-AA4F-5EB5-C4BB798FD410</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="item ID" id="B1C54810-6AF3-37A3-3BC8-BB4E0068B34C">
+<createdBy>Petar</createdBy>
+<createdTime>2020-05-28 23:51:15 UTC</createdTime>
+<generatorID>FCD8E277-079E-43A2-2957-A0D08657B0FE</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<referedAttribute>A291E040-A803-F365-CB1B-0D37074EA933</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gift condition" id="D8DF597D-C79B-7560-C6DC-48EC8F4A3999">
+<createdBy>Petar</createdBy>
+<createdTime>2020-05-28 23:50:43 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="91FE64ED-5410-D026-65CF-587220D8E1E0" name="Item gift PK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-05-28 23:51:07 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>49551DB7-E4E1-A482-A4EF-D5D02207BFFE</attributeRef>
+<attributeRef>B1C54810-6AF3-37A3-3BC8-BB4E0068B34C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

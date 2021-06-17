@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="983C9B6E-5DED-41DC-BCE7-CD90D78A8AD1" name="Boss fight">
+<createdBy>Petar</createdBy>
+<createdTime>2020-04-23 15:46:13 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="boss fight ID" id="49AFE85A-A79D-911F-3849-5C184BD8B18C">
+<createdBy>Petar</createdBy>
+<createdTime>2020-04-23 15:46:36 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="boss fight name" id="A6F42EE7-E0B4-408F-F2E1-DFCC105D9815">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:15:05 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location ID" id="89933BB6-3E39-F59A-2220-E2A637262A41">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 12:47:23 UTC</createdTime>
+<generatorID>4348E425-168A-849A-48BC-38A36C24DA6B</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<referedAttribute>A2D51C06-2049-3332-EA29-A8CE592C1C3B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="souls" id="BCDA17C9-33A9-2A84-17BE-FD0B0E29293A">
+<createdBy>Petar</createdBy>
+<createdTime>2020-04-23 15:46:50 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lord" id="7699CCDC-8352-2580-B84A-2CA1BE59916D">
+<createdBy>Petar</createdBy>
+<createdTime>2020-04-23 15:47:16 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C5F4C80C-26B5-538F-A7C7-06A7B9B2816A" name="Boss fight PK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-04-23 15:46:48 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>49AFE85A-A79D-911F-3849-5C184BD8B18C</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="94260DCD-25D4-CA62-9E82-8AD4BDF29405" name="boss_fight_uq">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:18:19 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<newElementsIDs>A6F42EE7-E0B4-408F-F2E1-DFCC105D9815</newElementsIDs>
+<usedAttributes>
+<attributeRef>A6F42EE7-E0B4-408F-F2E1-DFCC105D9815</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

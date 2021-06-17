@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4898173-55F9-2D17-F4CE-B863C5E3AB79" name="Normal_enemy">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>DC7AB885-CBC4-7EAC-A152-D26CF9D18FB9</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="enemy_ID" id="ACF164C8-8149-7DCF-F463-80446C77A3DE">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>DF466FAB-9A6A-80B6-D215-7D77D0C240EE</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE5539E0-9B19-329F-8ED9-DD6A615C9276" referredColumn="DEA89BA0-7BD4-AF01-A6B2-864950D4F2EC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C7A39FC-5245-BF82-BA4F-63ACBDEA0E95" name="Normal_enemy_PK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>7D78C395-0E0D-F42B-6092-0B3D10972D83</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACF164C8-8149-7DCF-F463-80446C77A3DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62CD36FB-73EC-6BC0-DAEB-5A7D9BECFE61" name="Normal_enemy_FK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>450F3DD7-1EE6-EEE4-4FEF-050F6444D28A</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACF164C8-8149-7DCF-F463-80446C77A3DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6644A97-EDE8-1DB2-0775-D2BA49AEFF22" name="Special_effect">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>E95B7D11-5227-D6C2-CDF8-DE6A2D3FFB65</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="item_ID" id="51D5ED72-1DE5-5FFD-2FC8-5ADF59EDA252">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>4B3EC3FD-2D60-E520-A49D-91ADB8B93EB2</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DC3D130-3E38-5B86-C73E-12AF543C9E3C" referredColumn="49267089-D116-FDAA-F7F3-32A9C1DF2CEE"/>
+</associations>
+</Column>
+<Column name="effect_type" id="35F35AEB-B1EE-CB41-684F-99DD010C6503">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>2600CBC6-428C-C424-336C-40D9CF2F21B2</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aux_value" id="1F74540C-82C8-6E34-D37F-999B1369413F">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>F576063F-4E74-D25C-0B58-A55AB8272089</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C456496-CCD6-516C-1E80-7480B8B1C23E" name="Special_effect_PK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>797C2A55-E7AB-CF1A-69C5-ADE5EBB9E92D</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51D5ED72-1DE5-5FFD-2FC8-5ADF59EDA252"/>
+<colUsage columnID="35F35AEB-B1EE-CB41-684F-99DD010C6503"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="842B3125-568C-35F3-AB32-122B64B035A5" name="Special_effect_Wpn_FK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>CEB8CCDC-8263-8A51-F4BE-E9A6604CC7C9</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51D5ED72-1DE5-5FFD-2FC8-5ADF59EDA252"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

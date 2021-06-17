@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84659356-119B-71C5-D244-C3880B6345FA" name="Item_drop">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>0031D30B-CFEA-DF03-8EC3-42492D2B1BE5</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="enemy_ID" id="606F3FF1-68C2-EF7D-C0A4-0BDE58B0D8D2">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>69603AD5-B33C-D07B-3E40-8E13717BD118</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4569C395-FA20-B256-4CB0-108A06565D75" referredColumn="2AA3F21A-F281-E3EA-A1C5-009470171080"/>
+</associations>
+</Column>
+<Column name="instance_number" id="194D0EB4-7033-B1BC-A2F7-B0587EEFC917">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>013B32C5-2C9D-B283-F04A-759D736D435C</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4569C395-FA20-B256-4CB0-108A06565D75" referredColumn="CA10614F-466E-2F0C-BE9E-4584CD7DCD2B"/>
+</associations>
+</Column>
+<Column name="item_ID" id="11D89E14-4B9E-5F24-48D3-7C9F0D939107">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>BAA0538B-FF59-433F-4A54-CDD055607C89</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12645F7A-46EE-9257-12C3-50F5D93E2064" referredColumn="2F0F4EBD-FD97-B547-8560-8F8771B878DC"/>
+</associations>
+</Column>
+<Column name="drop_quantity" id="2A1978BE-28E8-3E15-B06D-C52D63EAC20E">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>B1815955-1E22-142E-1FB0-CEB485A416A8</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="drop_chance" id="2CD27C56-E240-4E0C-B560-94592C39A2CD">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>32E54C30-9936-ABDD-5534-B7D0431C8741</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A525E6E-55EB-B807-7BD7-FCE0CD0F6AD3" name="Item_drop_PK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>1381D70D-49B2-3E02-61C0-2560C693F2DC</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="606F3FF1-68C2-EF7D-C0A4-0BDE58B0D8D2"/>
+<colUsage columnID="194D0EB4-7033-B1BC-A2F7-B0587EEFC917"/>
+<colUsage columnID="11D89E14-4B9E-5F24-48D3-7C9F0D939107"/>
+<colUsage columnID="2A1978BE-28E8-3E15-B06D-C52D63EAC20E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42D791EB-450A-4F8E-6189-B2893DC14491" name="Item_drop_EI_FK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>13D5604E-F003-62B8-D269-3313B516B4F5</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="606F3FF1-68C2-EF7D-C0A4-0BDE58B0D8D2"/>
+<colUsage columnID="194D0EB4-7033-B1BC-A2F7-B0587EEFC917"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F246043C-CFEF-EE97-14C3-CCF82F86661D" name="Item_drop_Item_FK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>445C1A5A-49D7-919D-6404-C6FD1C32F860</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11D89E14-4B9E-5F24-48D3-7C9F0D939107"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

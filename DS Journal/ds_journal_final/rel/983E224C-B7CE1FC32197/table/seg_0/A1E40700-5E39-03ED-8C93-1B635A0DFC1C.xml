@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1E40700-5E39-03ED-8C93-1B635A0DFC1C" name="Transit">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>D994F95A-D0E9-99B9-CF8D-225815F21371</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="location_from_ID" id="34CBD6CF-B160-B2A5-2002-FB5F05312954">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>1D522B33-DD37-81F0-8895-9DABA5FD484F</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B844B519-26A7-85C3-7B26-BF2ECBB55264" referredColumn="44978E71-5C78-3933-C2E6-97708000C0FE"/>
+</associations>
+</Column>
+<Column name="location_to_ID" id="1EDCB65D-E1FC-CB6C-39DE-6368D781D85F">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>F8C2B0CD-2E9F-7261-C4AA-AD5CFF6A497D</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F2DD1AE-6003-5879-BC25-5C9269183BB4" referredColumn="44978E71-5C78-3933-C2E6-97708000C0FE"/>
+</associations>
+</Column>
+<Column name="transit_number" id="853043C4-DBEC-C0F2-B286-20674CCC02E3">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>626A3058-A716-D41A-31B2-515070C8EC44</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transit_type" id="FA6ACED4-F39B-063E-CC5C-914F9BCB2B5D">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>199CEA7C-E808-E613-8772-F9AA73A8313F</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6B0A53CD-A8DF-3B42-1B49-EF1AA3CDC29F" name="Transit_PK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>7EF0A9F8-CA5C-FB77-94DB-0FC5B5261D4B</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34CBD6CF-B160-B2A5-2002-FB5F05312954"/>
+<colUsage columnID="1EDCB65D-E1FC-CB6C-39DE-6368D781D85F"/>
+<colUsage columnID="853043C4-DBEC-C0F2-B286-20674CCC02E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="229D984C-418D-5BF9-CD91-121699207F73" name="transit_from_FK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>318232B7-310E-6770-D1BE-892271C18E92</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34CBD6CF-B160-B2A5-2002-FB5F05312954"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="240EBB2E-42C6-CF74-1A03-423A421F199B" name="transit_to_FK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>581615FD-0397-FE65-2B3B-7300E641B82F</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EDCB65D-E1FC-CB6C-39DE-6368D781D85F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

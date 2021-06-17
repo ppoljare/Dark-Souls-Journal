@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="B150F085-7FEB-D62B-644A-DD512144D9C1" mainViewID="0E721EFF-6185-3734-77D4-863A871E3070">
+<createdBy>Petar</createdBy>
+<createdTime>2020-04-23 14:22:00 UTC</createdTime>
+<ownerDesignName>dark_souls_journal</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

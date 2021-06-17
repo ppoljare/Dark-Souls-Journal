@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E95B7D11-5227-D6C2-CDF8-DE6A2D3FFB65" name="Special effect">
+<createdBy>Petar</createdBy>
+<createdTime>2020-05-28 23:35:14 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="item ID" id="4B3EC3FD-2D60-E520-A49D-91ADB8B93EB2">
+<createdBy>Petar</createdBy>
+<createdTime>2020-05-28 23:42:26 UTC</createdTime>
+<generatorID>CEB8CCDC-8263-8A51-F4BE-E9A6604CC7C9</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<referedAttribute>A291E040-A803-F365-CB1B-0D37074EA933</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="effect type" id="2600CBC6-428C-C424-336C-40D9CF2F21B2">
+<createdBy>Petar</createdBy>
+<createdTime>2020-05-28 23:35:21 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aux value" id="F576063F-4E74-D25C-0B58-A55AB8272089">
+<createdBy>Petar</createdBy>
+<createdTime>2020-05-28 23:39:37 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="797C2A55-E7AB-CF1A-69C5-ADE5EBB9E92D" name="Aux effect PK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-05-28 23:39:12 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2600CBC6-428C-C424-336C-40D9CF2F21B2</attributeRef>
+<attributeRef>4B3EC3FD-2D60-E520-A49D-91ADB8B93EB2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

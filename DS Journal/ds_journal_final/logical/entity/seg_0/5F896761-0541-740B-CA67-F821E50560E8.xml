@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5F896761-0541-740B-CA67-F821E50560E8" name="Item purchase">
+<createdBy>Petar</createdBy>
+<createdTime>2020-04-23 16:22:06 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="npc ID" id="D2C85823-C067-5501-1E9D-C6D15E8BD0E6">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:08:51 UTC</createdTime>
+<generatorID>B8B9B810-1F5D-75B7-184A-FFE6059A0D5C</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<referedAttribute>706DE2DE-729E-AA4F-5EB5-C4BB798FD410</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="item ID" id="D668B127-8F76-9128-7FF6-40FE088C1B33">
+<createdBy>Petar</createdBy>
+<createdTime>2020-05-29 00:37:56 UTC</createdTime>
+<generatorID>09EF8737-02B4-B0A2-C3B7-B8746F92E312</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<referedAttribute>A291E040-A803-F365-CB1B-0D37074EA933</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="item cost" id="6D4A3BBC-1370-A2FD-7ED4-63372126F04A">
+<createdBy>Petar</createdBy>
+<createdTime>2020-04-23 17:20:51 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="857DC908-A196-F5D0-A615-9E5D737EE1D4" name="Item purchase PK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-04-23 17:27:15 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D668B127-8F76-9128-7FF6-40FE088C1B33</attributeRef>
+<attributeRef>D2C85823-C067-5501-1E9D-C6D15E8BD0E6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

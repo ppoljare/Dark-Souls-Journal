@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2CB40261-D554-43D7-3C93-74784573A219" name="Item_loot">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>17723252-A8E0-F5C1-7F09-73A11D3801E0</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="location_ID" id="540F90FD-A9F6-E9C1-6074-B3473A1EE704">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>E90D67D0-1B97-325F-696A-D85543CAE3D2</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8CE2AFA-3795-8D43-AAA0-F6A78CC25DDE" referredColumn="44978E71-5C78-3933-C2E6-97708000C0FE"/>
+</associations>
+</Column>
+<Column name="item_ID" id="4A039E7D-26E0-EDAA-2663-22BE444C8FA8">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>5CF17909-9621-EFA0-BE17-3FC935A614FC</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A9FAE35-F6DB-E512-C7EB-516E63801D04" referredColumn="2F0F4EBD-FD97-B547-8560-8F8771B878DC"/>
+</associations>
+</Column>
+<Column name="loot_number" id="4920B686-66C8-3961-8F05-771AFE3D1F17">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>128E9B17-D7A7-5FC6-1F8B-C5DFC2B8AC5C</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="loot_quantity" id="D020240F-1402-D4F3-5186-E580460001D2">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>2E8C6937-FA86-EFEF-C5A2-B97A33D72AE2</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="loot_type" id="16E6F0B3-83F7-3415-DA49-2922975930BC">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>FE4DEBC6-C075-BC89-ADB1-6EBC22F99CDF</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0DB5A43E-6CF3-99AB-C606-32D808B2442C" name="Item_loot_PK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>ADE47867-91FB-8D53-0676-E3D0242F82A2</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="540F90FD-A9F6-E9C1-6074-B3473A1EE704"/>
+<colUsage columnID="4A039E7D-26E0-EDAA-2663-22BE444C8FA8"/>
+<colUsage columnID="4920B686-66C8-3961-8F05-771AFE3D1F17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A97F2B3A-FCC6-AE19-D0EF-08F5A8360A8E" name="Item_loot_Location_FK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>3DBDACC9-6D86-3BA3-6F5A-702CDD45EF41</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="540F90FD-A9F6-E9C1-6074-B3473A1EE704"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAFFD506-590B-62BC-B875-63DCA474E869" name="Item_loot_Item_FK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:42:53 UTC</createdTime>
+<generatorID>D76DC8D7-36E5-3F9D-5DC6-E8A9212DD6FA</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A039E7D-26E0-EDAA-2663-22BE444C8FA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

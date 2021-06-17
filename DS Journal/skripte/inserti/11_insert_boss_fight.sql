@@ -1,0 +1,24 @@
+SET DEFINE OFF;
+
+CALL new_boss_fight('Asylum Demon', 'Northern Undead Asylum (tutorial)', 2000);
+CALL new_boss_fight('Taurus Demon', 'Undead Burg (upper)', 3000);
+CALL new_boss_fight('Bell Gargoyles', 'Undead Parish', 10000);
+CALL new_boss_fight('Capra Demon', 'Undead Burg (lower)', 6000);
+CALL new_boss_fight('Gaping Dragon', 'Depths', 25000);
+CALL new_boss_fight('Chaos Witch Quelaag', 'Quelaag''s Domain', 20000);
+CALL new_boss_fight('Iron Golem', 'Sen''s Fortress (rooftops)', 40000);
+CALL new_boss_fight('Ornstein & Smough', 'Anor Londo', 50000);
+CALL new_boss_fight('Crossbreed Priscilla', 'Painted World of Ariamis', 30000);
+CALL new_boss_fight('Dark Sun Gwyndolin', 'Darkmoon Tomb', 40000);
+CALL new_boss_fight('Stray Demon', 'Northern Undead Asylum (return)', 20000);
+CALL new_boss_fight('Moonlight Butterfly', 'Darkroot Garden', 10000);
+CALL new_boss_fight('Sif, the Great Grey Wolf', 'Darkroot Wood', 40000);
+CALL new_boss_fight('Four Kings', 'The Abyss', 60000, '1');
+CALL new_boss_fight('Ceaseless Discharge', 'Demon Ruins (upper)', 20000);
+CALL new_boss_fight('Demon Firesage', 'Demon Ruins (arena)', 20000);
+CALL new_boss_fight('Centipede Demon', 'Demon Ruins (arena)', 40000);
+CALL new_boss_fight('Bed of Chaos', 'Lost Izalith', 60000, '1');
+CALL new_boss_fight('Pinwheel', 'The Catacombs', 15000);
+CALL new_boss_fight('Gravelord Nito', 'Tomb of the Giants (skeleton pool)', 60000, '1');
+CALL new_boss_fight('Seath the Scaleless', 'Crystal Cave', 60000, '1');
+CALL new_boss_fight('Gwyn, Lord of Cinder', 'Kiln of the First Flame', 70000);

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="983E224C-A2BB-861D-EF27-B7CE1FC32197" mainViewID="541793B7-21BE-FACC-5143-33558B728B85">
+<createdBy>Petar</createdBy>
+<createdTime>2020-04-23 14:22:00 UTC</createdTime>
+<ownerDesignName>dark_souls_journal</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

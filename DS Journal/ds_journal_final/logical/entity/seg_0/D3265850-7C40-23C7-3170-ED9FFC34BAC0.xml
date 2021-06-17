@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D3265850-7C40-23C7-3170-ED9FFC34BAC0" name="NPC">
+<createdBy>Petar</createdBy>
+<createdTime>2020-04-23 16:15:46 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="npc ID" id="706DE2DE-729E-AA4F-5EB5-C4BB798FD410">
+<createdBy>Petar</createdBy>
+<createdTime>2020-04-23 16:15:52 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="npc name" id="60FF9C05-9A76-B952-6B6F-2EB1579240A9">
+<createdBy>Petar</createdBy>
+<createdTime>2020-04-23 16:16:23 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="covenant" id="1392242E-58A2-3F46-E2A1-5EB154C315D8">
+<createdBy>Petar</createdBy>
+<createdTime>2020-04-23 17:49:49 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="firekeeper" id="2B6B1087-564A-8E38-E19F-8C2DC9454642">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:05:14 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location ID" id="D765E6B8-5159-C739-46C5-F873F42C3945">
+<createdBy>Petar</createdBy>
+<createdTime>2020-04-23 16:21:28 UTC</createdTime>
+<generatorID>DD11EE5E-568A-5D18-D361-8E94EEF93BD9</generatorID>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<referedAttribute>A2D51C06-2049-3332-EA29-A8CE592C1C3B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="09FD2E4C-FA00-2AFB-62B9-E790338F7EE1" name="Merchant PK">
+<createdBy>Petar</createdBy>
+<createdTime>2020-04-23 16:16:21 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>706DE2DE-729E-AA4F-5EB5-C4BB798FD410</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="2477BBD5-DFCA-77A8-8B8C-576B42FE200B" name="npc_uq">
+<createdBy>Petar</createdBy>
+<createdTime>2020-06-13 13:17:09 UTC</createdTime>
+<ownerDesignName>ds_journal_final</ownerDesignName>
+<engineerTo>
+<item key="983E224C-A2BB-861D-EF27-B7CE1FC32197" value="true"/>
+</engineerTo>
+<newElementsIDs>60FF9C05-9A76-B952-6B6F-2EB1579240A9</newElementsIDs>
+<usedAttributes>
+<attributeRef>60FF9C05-9A76-B952-6B6F-2EB1579240A9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ds_journal_final" id="7B177EFD-CE44-B265-51D7-77515B3BF5B6" version="3.5">
+<createdBy>Petar</createdBy>
+<createdTime>2020-04-23 14:22:00 UTC</createdTime>
+<ownerDesignName>dark_souls_journal</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7B177EFD-CE44-B265-51D7-77515B3BF5B6</designId>
+</OSDM_Design>
